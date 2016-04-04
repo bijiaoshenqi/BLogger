@@ -2,8 +2,6 @@ apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'me.tatarka.retrolambda'
 
-group = 'net.bingyan.BLogger'
-
 retrolambda {
     javaVersion JavaVersion.VERSION_1_7
     defaultMethods true
